@@ -14,7 +14,7 @@ poisson = stats.poisson.pmf(n, rate)
 # Normal Distribution
 mu, sigma = 0, 1
 x = np.arange(-5, 5, 0.1)
-norm = stats.norm.pdf(x, mu, signal)
+norm = stats.norm.pdf(x, mu, sigma)
 
 # Beta Distribution
 a, b = 0.5, 0.5
